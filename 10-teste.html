@@ -1,0 +1,22 @@
+<meta charset="utf-8">
+
+<h3>Álcool ou Gasolina?</h3>
+
+<script>
+	var	litrosGastos = 40;
+	var distanciaPercorridaGasolina = 480;
+	var consumoDeGasolina = distanciaPercorridaGasolina / litrosGastos;
+	var precoGasolina = 6.67;
+	var precoAlcool = 5.20;
+
+	document.write("O consumo utilizando Gasolina é: " + consumoDeGasolina + " KM por Litro." + " <br> Valor total gasto R$: " + (precoGasolina * consumoDeGasolina));
+
+	document.write("<br>");
+	document.write("<br>");
+
+	var distanciaPercorridaAlcool = 300;
+	var consumoDeAlcool = distanciaPercorridaAlcool / litrosGastos;
+
+	document.write("O consumo utilizando Álcool é: " + consumoDeAlcool + " <br> Valor total gasto R$: " + (precoAlcool * consumoDeAlcool));
+
+</script>
