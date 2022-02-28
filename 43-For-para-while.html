@@ -1,0 +1,22 @@
+<meta charset="utf-8">
+
+<script>
+	
+	function pulaLinha() {
+		document.write("<br><br>");
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+		pulaLinha();
+	}
+
+	var i = 1;
+	while(i < 10) {
+		mostra("O resultado é " + (2 * i) );
+		i++;
+	}
+
+	mostra("FIM");
+
+</script>
